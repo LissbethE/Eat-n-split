@@ -1,3 +1,36 @@
+## ✨Project preview
+
+<h1 align=center>🧑‍🤝‍🧑Eat-n-split</h1>
+
+<h3 align="center">
+  Build Using:
+  <img align="center"  src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  
+</h3>
+
+<div align=center><img src="./public/img/eat-n-split.png"  width="90%"/></div>
+
+<br/>
+
+#### 📚 Course project
+
+- The Ultimate React Course 2023: React, Redux & More, by Jonas Schmedtmann.
+
+#### 💡The implemented changes
+
+- Mobile-friendly.
+- By making changes to the design.
+
+</br>
+
+<p align=center>🌐The online site: <a href="" target="_blank">🧑‍🤝‍🧑Eat-n-split</a></p>
+
+</br>
+
+##
+
+</br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,86 @@
+html {
+  font-size: 62.5%;
+
+  ///////////////////////////////////
+  // if width <= 900px
+  @include respond(tab-portrait) {
+    font-size: 56.25%; // 9px
+  }
+
+  // width <= 600
+  @include respond(phone) {
+    font-size: 50%; // 8px
+  }
+
+  // if width <= 400px
+  @include respond(smallPhone) {
+    font-size: 43.75%; // 7px
+  }
+
+  // width >= 1800px
+  @include respond(big-desktop) {
+    font-size: 100%; // 16px
+  }
+
+  // width >= 2000px
+  @include respond(big-desktop-2) {
+    font-size: 125%; // 20px
+  }
+
+  ///////////////////////////////////
+  /* Scroll Smoothly */
+  scroll-behavior: smooth;
+
+  ///////////////////////////////////
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  // background-color: #ffbc5e; // $color-light
+
+  color: #000;
+  background-color: #ffc6ac;
+  height: 100vh;
+
+  @include respond(tab-portrait) {
+    height: 105vh;
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+::selection {
+  // background-color: $color-primary;
+  // color: $color-dark;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: center;
+
+  @include respond(tab-portrait) {
+    grid-template-columns: auto;
+    grid-template-rows: 39rem auto;
+    gap: 2rem;
+  }
+}
