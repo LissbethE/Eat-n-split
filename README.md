@@ -23,7 +23,7 @@
 
 </br>
 
-<p align=center>🌐The online site: <a href="" target="_blank">🧑‍🤝‍🧑Eat-n-split</a></p>
+<p align=center>🌐The online site: <a href="https://tb-eat-n-split.netlify.app/" target="_blank">🧑‍🤝‍🧑Eat-n-split</a></p>
 
 </br>
 
